@@ -1,9 +1,21 @@
 ############################################################
 # File: helpers.py
-# Class: CMSC421 - Introduction to Artificial Intelligence
+# Path: python_utils/
+# Author: Nathaniel Lao (lao.nathan95@gmail.com)
 # 
-# Helper functions for alpha-beta practice.
+# General utility functions for various use cases.
 ############################################################
+
+import random
+
+############################################################
+# Returns a random list of n integers.
+############################################################
+def gen_randomlist(n=10,low=-10,high=10):
+	rlist = []
+	for i in range(0,n):
+		rlist.append(random.randrange(low,high))
+	return rlist
 
 ############################################################
 # Returns the integer root of n in respect to the base number.

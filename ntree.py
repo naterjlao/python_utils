@@ -1,12 +1,9 @@
 ############################################################
 # File: ntree.py
-# Class: CMSC421 - Introduction to Artificial Intelligence
-# Project: 1 - Racetrack
+# Path: python_utils/
+# Author: Nathaniel Lao (lao.nathan95@gmail.com)
 #
-# Defines a datastructure for storing racetrack partitions
-# This datastructure is an n-dimensional tree where
-# any node can have an arbitrary amount of children.
-# This represents the "room" structure of the partitions.
+# Defines an n-dimensional tree stucture.
 ############################################################
 
 ############################################################

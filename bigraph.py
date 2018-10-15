@@ -1,6 +1,7 @@
 ############################################################
 # File: bigraph.py
-# Author: Nathaniel Lao
+# Path: python_utils/
+# Author: Nathaniel Lao (lao.nathan95@gmail.com)
 #
 # Class Declaration of a bidirectional graph to be implemented in
 # racetrack. This is to serve as a way to store checkpoints
