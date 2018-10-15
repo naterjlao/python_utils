@@ -22,7 +22,7 @@ else:
 # Simple n dimensional tree stucture for storing partitions.
 ############################################################
 class Ntree:
-	def __init__(self,key):
+	def __init__(self,key=None):
 		self.key = key
 		self.children = []
 		
