@@ -8,6 +8,6 @@
 ################################################################################
 
 # Key words to find and filter out from the input data
-filterKeywords = ["waffle","mcDonald"]
+filterKeywords = ["a","b","c"]
 filteredCSV = "filtered.csv"
 remainderCSV = "remainder.csv"
