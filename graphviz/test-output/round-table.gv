@@ -1,9 +1,0 @@
-// The round Table
-digraph {
-	A [label="King Arthur"]
-	"BSir Bedevere the Wise"
-	"LSir Lancelot the Brave"
-	A -> B
-	A -> L
-	B -> L [constraint=false]
-}
