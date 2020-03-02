@@ -11,4 +11,4 @@ dot.edge('B','L',constraint='false')
 
 print(dot.source)
 
-dot.render('test-output/round-table.gv', view=True)
+dot.render('test-output/round-table.gv', view=False)
