@@ -7,6 +7,8 @@
 #                Requirements
 ################################################################################
 
+import config
+
 # Defines a requirement
 class Req:
 	def __init__(self,id, description):
