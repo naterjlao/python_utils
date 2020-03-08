@@ -8,7 +8,8 @@
 ################################################################################
 
 import config
-
+import os.path
+import csv
 # Defines a requirement
 class Req:
 	def __init__(self,id, description):
@@ -77,8 +78,14 @@ class Req:
 # imports the given <filename> and returns a ReqTable
 # object representation
 def importCSV(filename):
-	pass
+	if (not(os.path.isfile(filename))):
+		raise Exception("%s is not a file" % filename)
 	
+	inputFile = csv.reader(open(filename))
+
+	for row in inputFile:
+		print(row) #DEBUGGING
+
 	
 # MAIN TEST DRIVER
 if __name__ == "__main__":
@@ -89,4 +96,5 @@ if __name__ == "__main__":
 	print(r)
 
 
+	importCSV("sw.csv")
 
